@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:linear-gradient(90deg, black, darkred, pink,  darkred, black);
+    font-family:'Comfortaa', cursive;
+    margin: 50px;
+}
+
+header{
+    text-align: center;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+.descripcion h3, .pasatiempos h3{
+    text-align: center;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+p{
+    background-color: aliceblue;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 20px;
+    width: 500px;
+    height: 150px;
+    text-align: justify;
+    font-style: italic;
+}
+
+p::first-letter{
+    color: brown;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+
+img{
+    width: 500px;
+    margin: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
